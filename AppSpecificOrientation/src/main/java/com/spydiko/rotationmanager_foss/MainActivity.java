@@ -1,4 +1,4 @@
-package com.spydiko.rotationmanager;
+package com.spydiko.rotationmanager_foss;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -34,7 +34,6 @@ import com.appflood.AFBannerView;
 import com.appflood.AppFlood;
 import com.appflood.AppFlood.AFRequestDelegate;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
-import com.jeremyfeinstein.slidingmenu.lib.app.SlidingActivity;
 
 import org.json.JSONObject;
 

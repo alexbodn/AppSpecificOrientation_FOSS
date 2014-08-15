@@ -1,8 +1,7 @@
-package com.spydiko.rotationmanager;
+package com.spydiko.rotationmanager_foss;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;

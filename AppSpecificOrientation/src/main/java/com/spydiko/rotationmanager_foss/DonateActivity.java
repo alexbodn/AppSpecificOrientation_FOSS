@@ -1,4 +1,4 @@
-package com.spydiko.rotationmanager;
+package com.spydiko.rotationmanager_foss;
 
 import android.app.AlertDialog;
 import android.content.Context;

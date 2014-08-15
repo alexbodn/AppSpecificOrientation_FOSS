@@ -1,15 +1,10 @@
-package com.spydiko.rotationmanager;
+package com.spydiko.rotationmanager_foss;
 
-import android.animation.LayoutTransition;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.graphics.drawable.TransitionDrawable;
 import android.os.Bundle;
-import android.view.View;
-import android.view.ViewGroup;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 /**
