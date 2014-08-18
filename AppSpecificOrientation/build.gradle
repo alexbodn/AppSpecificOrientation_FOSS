@@ -20,9 +20,11 @@ android {
 
 dependencies {
     compile 'com.android.support:appcompat-v7:18.0.+'
-    compile files('libs/adcolony.jar')
-    compile files('libs/appflood-2.1.jar')
-    compile files('libs/GoogleAdMobAdsSdk-6.4.1.jar')
-    compile files('libs/wversionmanager-1.1.jar')
     compile project(':slidingbar')
+}
+
+// Workaround to fix the following issue when building with FDroid:
+// "Could not find method checkReleaseBuilds() for arguments [false]"
+def checkReleaseBuilds(Boolean val) {
+    return false
 }
